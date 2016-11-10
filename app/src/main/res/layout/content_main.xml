@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="swag.berenger.geoquizz.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/QuestionTextView"
+        android:layout_width="168dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:padding="24dp"
+        android:gravity="center_vertical|center_horizontal" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bouton_vrai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bouton_vrai"/>
+        <Button
+            android:id="@+id/bouton_faux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bouton_faux"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/bouton_suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_suivant"/>>
+
+</LinearLayout>
+

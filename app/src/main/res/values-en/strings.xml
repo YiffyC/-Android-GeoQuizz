@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoQuizz</string>
+    <string name="bouton_vrai">True</string>
+    <string name="question_text">Is Paris the capital of France?</string>
+    <string name="bouton_faux">False</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+</resources>
