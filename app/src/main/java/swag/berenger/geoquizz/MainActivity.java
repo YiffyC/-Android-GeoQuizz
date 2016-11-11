@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mQuestionTextView.setText(question);
     }
 
+
     private void verifierReponse(boolean userVrai)
     {
         boolean reponseVraie = mTabQuestions[mIndexActuel].isQuestionVraie();
